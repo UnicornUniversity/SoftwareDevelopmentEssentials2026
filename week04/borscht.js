@@ -1,8 +1,9 @@
 const componentsForBorscht = ["beets", "carrot", "potato"];
 const componentsForAnotherDish = ["potato", "meet"];
 
-// this is a pure function
+// this is a not-pure function
 function boil(component){
+    // this is a side effect
     console.log(component + " is boiled");
 }
 
