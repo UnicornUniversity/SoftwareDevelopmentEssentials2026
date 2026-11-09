@@ -1,0 +1,45 @@
+====== BRUTE FORCE =====
+--- 5 ----
+
+value 1 = 11
+value 2 = 7
+index 1 = 3
+index 2 = 4
+Execution time = 3.1614000000000004 ms
+Total # of iterations = 20
+
+---- 10 k ---
+
+value 1 = 40120
+value 2 = 24069
+index 1 = 2748
+index 2 = 9709
+Execution time = 20.299999952316284 ms
+sTotal # of iterations = 27489710
+
+=== HASH ====
+
+--- 5 ----
+value 1 = 7
+value 2 = 11
+index 1 = 3
+index 2 = 4
+Execution time = 3.0397999999999996 ms
+Total # of iterations = 5
+
+---- 10 k ---
+value 1 = 24069
+value 2 = 40120
+index 1 = 2748
+index 2 = 9709
+Execution time = 1.5 ms
+Total # of iterations = 9710
+
+
+
+
+
+
+
+
+
